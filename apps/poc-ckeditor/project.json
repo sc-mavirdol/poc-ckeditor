@@ -1,0 +1,90 @@
+{
+  "name": "poc-ckeditor",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/poc-ckeditor/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/poc-ckeditor",
+        "index": "apps/poc-ckeditor/src/index.html",
+        "baseHref": "/",
+        "main": "apps/poc-ckeditor/src/main.tsx",
+        "tsConfig": "apps/poc-ckeditor/tsconfig.app.json",
+        "assets": [
+          "apps/poc-ckeditor/src/favicon.ico",
+          "apps/poc-ckeditor/src/assets"
+        ],
+        "styles": [],
+        "scripts": [],
+        "isolatedConfig": true,
+        "webpackConfig": "apps/poc-ckeditor/webpack.config.js"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/poc-ckeditor/src/environments/environment.ts",
+              "with": "apps/poc-ckeditor/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/webpack:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "poc-ckeditor:build",
+        "hmr": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "poc-ckeditor:build:development"
+        },
+        "production": {
+          "buildTarget": "poc-ckeditor:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/poc-ckeditor/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/poc-ckeditor/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    }
+  },
+  "tags": []
+}
