@@ -1,0 +1,17 @@
+[1m[33m[36m>[39m[33m [7m[1m[36m NX [39m[33m[22m[1m[27m Unable to load tsconfig-paths, workspace libraries may be inaccessible.[39m[22m
+[1m[33m  - To fix this, install tsconfig-paths with npm/yarn/pnpm[39m[22m
+[1m[33m[36m>[39m[33m [7m[1m[36m NX [39m[33m[22m[1m[27m Falling back to ts-node for local typescript execution. This may be a little slower.[39m[22m
+[1m[33m  - To fix this, ensure @swc-node/register and @swc/core have been installed[39m[22m
+
+ [31m>[39m [0m[7m[1m[31m NX [39m[22m[27m[0m  [31mCannot find module '@ckeditor/ckeditor5-dev-utils'[39m
+
+   Require stack:
+   - /Users/sc-mavirdol/Projects/poc-ckeditor/apps/poc-ckeditor/webpack.config.js
+   - /Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@nx/webpack/src/utils/webpack/custom-webpack.js
+   - /Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@nx/webpack/src/executors/dev-server/dev-server.impl.js
+   - /Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/nx/src/config/schema-utils.js
+   - /Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/nx/src/command-line/run/executor-utils.js
+   - /Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/nx/src/command-line/run/run.js
+   - /Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/nx/bin/run-executor.js
+   Pass --verbose to see the stacktrace.
+

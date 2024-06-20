@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx serve poc-ckeditor",
+    "startTime": "2024-06-20T07:14:53.231Z",
+    "endTime": "2024-06-20T07:14:54.750Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "poc-ckeditor:serve:development",
+      "target": "serve",
+      "projectName": "poc-ckeditor",
+      "hash": "2255583557204005060",
+      "startTime": "2024-06-20T07:14:53.239Z",
+      "endTime": "2024-06-20T07:14:54.749Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

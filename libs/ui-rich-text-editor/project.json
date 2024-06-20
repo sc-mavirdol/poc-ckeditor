@@ -1,0 +1,16 @@
+{
+  "name": "ui-rich-text-editor",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/ui-rich-text-editor/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/ui-rich-text-editor/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}

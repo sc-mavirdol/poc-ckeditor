@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@poc-ckeditor/ui-rich-text-editor": [
+        "libs/ui-rich-text-editor/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

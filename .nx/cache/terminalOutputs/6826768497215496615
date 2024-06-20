@@ -1,0 +1,71 @@
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
+
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mvendor.css[39m[22m [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m 80 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m (main) 7.39 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 34.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 5.01 MiB (javascript) 34 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/@ckeditor/ckeditor5-core/theme/icons/object-size-custom.svg[39m[22m
+Module build failed (from ../../node_modules/@svgr/webpack/dist/index.js):
+SyntaxError: unknown file: Namespace tags are not supported by default. React's JSX doesn't support namespace tags. You can set `throwIfNamespace: false` to bypass this warning.
+[0m [90m  5 |[39m   titleId[33m,[39m
+ [90m  6 |[39m   [33m...[39mprops
+[31m[1m>[22m[39m[90m  7 |[39m }[33m,[39m ref) [33m=>[39m [33m<[39m[33msvg[39m xmlns[33m=[39m[32m"http://www.w3.org/2000/svg"[39m xmlns[33m:[39mv[33m=[39m[32m"https://vecta.io/nano"[39m viewBox[33m=[39m[32m"0 0 20 20"[39m ref[33m=[39m{ref} aria[33m-[39mlabelledby[33m=[39m{titleId} {[33m...[39mprops}[33m>[39m{title [33m?[39m [33m<[39m[33mtitle[39m id[33m=[39m{titleId}[33m>[39m{title}[33m<[39m[35m/title> : null}<path d="M.95 1.43a.95.95 0 0 0-.95.95v3.1a.95.95 0 0 0 .95.95h.75v6.3H.95a.95.95 0 0 0-.95.95v3.1a.95.95 0 0 0 .95.95h3.1a.95.95 0 0 0 .95-.95v-.65h1.932l1.539-1.5H5v-.95a.95.95 0 0 0-.95-.95H3.2v-6.3h.85A.95.95 0 0 0 5 5.48v-.55h10v.55a.95.95 0 0 0 .95.95h3.1a.95.95 0 0 0 .95-.95v-3.1a.95.95 0 0 0-.95-.95h-3.1a.95.95 0 0 0-.95.95v1.05H5V2.38a.95.95 0 0 0-.95-.95H.95zm.55 3.5v-2h2v2h-2zm0 9.3v2h2v-2h-2zm15-11.3v2h2v-2h-2z" /[39m[33m>[39m[33m<[39m[33mpath[39m d[33m=[39m[32m"M8.139 20.004v-2.388l7.045-7.048 2.391 2.391-7.046 7.046h-2.39zm11.421-9.101a.64.64 0 0 1-.138.206l-1.165 1.168-2.391-2.391 1.167-1.163a.63.63 0 0 1 .206-.138.635.635 0 0 1 .243-.049.63.63 0 0 1 .449.187l1.491 1.488c.059.059.108.129.138.206s.049.16.049.243a.6.6 0 0 1-.049.243z"[39m [33m/[39m[33m>[39m[33m<[39m[33m/[39m[33msvg[39m[33m>[39m[33m;[39m
+ [90m    |[39m                                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mconst[39m [33mForwardRef[39m [33m=[39m forwardRef([33mSvgObjectSizeCustom[39m)[33m;[39m
+ [90m  9 |[39m [36mexport[39m { [33mForwardRef[39m [36mas[39m [33mReactComponent[39m }[33m;[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m __webpack_public_path__ [33m+[39m [32m"object-size-custom.1209bba18a59c4c8ce5a301652cef1fa.svg"[39m[33m;[39m[0m
+    at File.buildError [as buildCodeFrameError] (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/core/src/transformation/file/file.ts:249:12)
+    at NodePath.buildCodeFrameError (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/path/index.ts:140:21)
+    at PluginPass.call (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/plugin-transform-react-jsx/src/create-plugin.ts:169:24)
+    at call (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/visitors.ts:304:14)
+    at NodePath._call (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/path/context.ts:35:20)
+    at NodePath.call (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/path/context.ts:20:17)
+    at NodePath.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/path/context.ts:94:31)
+    at TraversalContext.visitQueue (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:147:16)
+    at TraversalContext.visitSingle (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:108:19)
+    at TraversalContext.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:179:19)
+    at traverseNode (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/traverse-node.ts:40:17)
+    at NodePath.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/path/context.ts:101:33)
+    at TraversalContext.visitQueue (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:147:16)
+    at TraversalContext.visitMultiple (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:98:17)
+    at TraversalContext.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:177:19)
+    at traverseNode (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/traverse-node.ts:40:17)
+    at NodePath.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/path/context.ts:101:33)
+    at TraversalContext.visitQueue (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:147:16)
+    at TraversalContext.visitSingle (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:108:19)
+    at TraversalContext.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:179:19)
+    at traverseNode (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/traverse-node.ts:40:17)
+    at NodePath.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/path/context.ts:101:33)
+    at TraversalContext.visitQueue (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:147:16)
+    at TraversalContext.visitSingle (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:108:19)
+    at TraversalContext.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:179:19)
+    at traverseNode (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/traverse-node.ts:40:17)
+    at NodePath.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/path/context.ts:101:33)
+    at TraversalContext.visitQueue (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:147:16)
+    at TraversalContext.visitMultiple (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:98:17)
+    at TraversalContext.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:177:19)
+    at traverseNode (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/traverse-node.ts:40:17)
+    at NodePath.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/path/context.ts:101:33)
+    at TraversalContext.visitQueue (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:147:16)
+    at TraversalContext.visitSingle (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:108:19)
+    at TraversalContext.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:179:19)
+    at traverseNode (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/traverse-node.ts:40:17)
+    at NodePath.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/path/context.ts:101:33)
+    at TraversalContext.visitQueue (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:147:16)
+    at TraversalContext.visitSingle (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:108:19)
+    at TraversalContext.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:179:19)
+    at traverseNode (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/traverse-node.ts:40:17)
+    at NodePath.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/path/context.ts:101:33)
+    at TraversalContext.visitQueue (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:147:16)
+    at TraversalContext.visitMultiple (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:98:17)
+    at TraversalContext.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:177:19)
+    at traverseNode (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/traverse-node.ts:40:17)
+    at NodePath.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/path/context.ts:101:33)
+    at TraversalContext.visitQueue (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:147:16)
+    at TraversalContext.visitMultiple (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:98:17)
+    at TraversalContext.visit (/Users/sc-mavirdol/Projects/poc-ckeditor/node_modules/@babel/traverse/src/context.ts:177:19)
+
+webpack compiled with [1m[31m1 error[39m[22m (7be4e61a518ca49b)
+[32mNo errors found.[39m

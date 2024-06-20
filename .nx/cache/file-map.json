@@ -1,0 +1,356 @@
+{
+  "version": "6.0",
+  "nxVersion": "16.10.0",
+  "deps": {
+    "@ckeditor/ckeditor5-basic-styles": "^41.4.2",
+    "@ckeditor/ckeditor5-dev-utils": "^40.2.2",
+    "@ckeditor/ckeditor5-editor-classic": "^41.4.2",
+    "@ckeditor/ckeditor5-essentials": "^41.4.2",
+    "@ckeditor/ckeditor5-paragraph": "^41.4.2",
+    "@ckeditor/ckeditor5-react": "^7.0.0",
+    "@emotion/react": "11.11.1",
+    "@emotion/styled": "11.11.0",
+    "@swc/helpers": "~0.5.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "ts-loader": "^9.5.1",
+    "tslib": "^2.3.0",
+    "@babel/core": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@emotion/babel-plugin": "11.11.0",
+    "@nx/eslint-plugin": "16.10.0",
+    "@nx/jest": "16.10.0",
+    "@nx/js": "16.10.0",
+    "@nx/linter": "16.10.0",
+    "@nx/react": "16.10.0",
+    "@nx/webpack": "16.10.0",
+    "@nx/workspace": "16.10.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@svgr/webpack": "^8.0.1",
+    "@swc/cli": "~0.1.62",
+    "@swc/core": "~1.3.85",
+    "@testing-library/react": "14.0.0",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.14.2",
+    "@types/react": "18.2.24",
+    "@types/react-dom": "18.2.9",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "babel-jest": "^29.4.1",
+    "css-loader": "^5.2.7",
+    "eslint": "~8.46.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "nx": "16.10.0",
+    "postcss-loader": "^4.3.0",
+    "prettier": "^2.6.2",
+    "raw-loader": "^4.0.2",
+    "react-refresh": "^0.10.0",
+    "style-loader": "^2.0.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.1.3",
+    "url-loader": "^4.1.1"
+  },
+  "pathMappings": {
+    "@poc-ckeditor/ui-rich-text-editor": [
+      "libs/ui-rich-text-editor/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11608181557323256120"
+      },
+      {
+        "file": ".nx/cache/d/daemon.log",
+        "hash": "3302523160185434167"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "5483525930424177246"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "17198411869702164542"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "2143303740670555332"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "7957541711590711637"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "11061808391828291108"
+      },
+      {
+        "file": ".nx/cache/run.json",
+        "hash": "11970087607956683108"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/12530337956317102820",
+        "hash": "387452315692879071"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/14934911544968552028",
+        "hash": "8884057804903927639"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/1499723015092559438",
+        "hash": "17864248019955992914"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/18075104851053076599",
+        "hash": "14994940037365599854"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/2255583557204005060",
+        "hash": "387452315692879071"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/4781651472202712237",
+        "hash": "16434774225950860334"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/4923604161053192792",
+        "hash": "5121714815062889560"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/6826768497215496615",
+        "hash": "14872932843258140088"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "8865097869854018350"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
+      },
+      {
+        "file": "README.md",
+        "hash": "4122338003948609960"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14430261361782301243"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "9945864442767371193"
+      },
+      {
+        "file": "package.json",
+        "hash": "3150980460400059822"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "14364513315356868667"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/14624936323762590656",
+        "hash": "267585087248168576"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/9280142154834713955",
+        "hash": "267585087248168576"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/8436653409036144041",
+        "hash": "10408924992071570378"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/3658748597852035462",
+        "hash": "4631522436647608601"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/8327694846293311801",
+        "hash": "6633128680436010944"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/8879433722035355893",
+        "hash": "7783944499824932492"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/359052019430221895",
+        "hash": "8103599032072851670"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/18333075602881789197",
+        "hash": "15252581543742991580"
+      }
+    ],
+    "projectFileMap": {
+      "poc-ckeditor": [
+        {
+          "file": "apps/poc-ckeditor/.babelrc",
+          "hash": "3309448101048490971"
+        },
+        {
+          "file": "apps/poc-ckeditor/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/poc-ckeditor/jest.config.ts",
+          "hash": "4800798681218319080"
+        },
+        {
+          "file": "apps/poc-ckeditor/project.json",
+          "hash": "12854943268744073326"
+        },
+        {
+          "file": "apps/poc-ckeditor/src/app/app.spec.tsx",
+          "hash": "17687301590737496825",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/poc-ckeditor/src/app/app.tsx",
+          "hash": "5856616748241732867",
+          "deps": [
+            "ui-rich-text-editor"
+          ]
+        },
+        {
+          "file": "apps/poc-ckeditor/src/app/nx-welcome.tsx",
+          "hash": "4389251527819925043"
+        },
+        {
+          "file": "apps/poc-ckeditor/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/poc-ckeditor/src/environments/environment.prod.ts",
+          "hash": "10220522844224226756"
+        },
+        {
+          "file": "apps/poc-ckeditor/src/environments/environment.ts",
+          "hash": "11309522437153898482"
+        },
+        {
+          "file": "apps/poc-ckeditor/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/poc-ckeditor/src/index.html",
+          "hash": "3086980348838700380"
+        },
+        {
+          "file": "apps/poc-ckeditor/src/main.tsx",
+          "hash": "4731961929376199421",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/poc-ckeditor/tsconfig.app.json",
+          "hash": "15147195313780277677"
+        },
+        {
+          "file": "apps/poc-ckeditor/tsconfig.json",
+          "hash": "15529987419283619546"
+        },
+        {
+          "file": "apps/poc-ckeditor/tsconfig.spec.json",
+          "hash": "8859575328606320387"
+        },
+        {
+          "file": "apps/poc-ckeditor/webpack.config.js",
+          "hash": "3966443435024136281",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:@nx/react",
+            "npm:@ckeditor/ckeditor5-dev-utils",
+            [
+              "npm:@ckeditor/ckeditor5-theme-lark",
+              "dynamic"
+            ]
+          ]
+        }
+      ],
+      "ui-rich-text-editor": [
+        {
+          "file": "libs/ui-rich-text-editor/.babelrc",
+          "hash": "12229791027711577977"
+        },
+        {
+          "file": "libs/ui-rich-text-editor/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "libs/ui-rich-text-editor/README.md",
+          "hash": "16448920910290389293"
+        },
+        {
+          "file": "libs/ui-rich-text-editor/project.json",
+          "hash": "5655611070117685867"
+        },
+        {
+          "file": "libs/ui-rich-text-editor/src/index.ts",
+          "hash": "6717722045831285984"
+        },
+        {
+          "file": "libs/ui-rich-text-editor/src/lib/ckeditor.ts",
+          "hash": "11787999396697231210",
+          "deps": [
+            "npm:@ckeditor/ckeditor5-editor-classic",
+            "npm:@ckeditor/ckeditor5-basic-styles",
+            "npm:@ckeditor/ckeditor5-essentials",
+            "npm:@ckeditor/ckeditor5-paragraph"
+          ]
+        },
+        {
+          "file": "libs/ui-rich-text-editor/src/lib/ui-rich-text-editor.tsx",
+          "hash": "18084939115049467873",
+          "deps": [
+            "npm:@ckeditor/ckeditor5-react"
+          ]
+        },
+        {
+          "file": "libs/ui-rich-text-editor/tsconfig.json",
+          "hash": "16681956788787426263"
+        },
+        {
+          "file": "libs/ui-rich-text-editor/tsconfig.lib.json",
+          "hash": "15147195313780277677"
+        }
+      ]
+    }
+  }
+}

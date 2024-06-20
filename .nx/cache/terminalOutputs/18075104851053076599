@@ -1,0 +1,9 @@
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
+
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 1.73 MiB (2.13 MiB) = [1m[32mruntime.js[39m[22m 50.3 KiB [1m[32mvendor.js[39m[22m 1.62 MiB [1m[32mmain.js[39m[22m 60.8 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m (main) 51.1 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 33.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.6 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3af0d69d026ef6fe)
+[32mNo errors found.[39m
